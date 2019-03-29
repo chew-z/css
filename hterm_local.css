@@ -311,20 +311,22 @@
 }
 x-screen { /* This is the element which contains the lines */
   font-weight: 400;
-  font-family: "B612 Mono", "Roboto Mono", monospace !important;
+  /* font-family: "B612 Mono", "Roboto Mono", monospace !important; */
   /* font-family: "Cutiva Mono", "Roboto Mono", monospace !important; */
+  /* font-family: "Nova Mono", "Roboto Mono", monospace !important; */
+  font-family: "Overpass Mono", "Roboto Mono", monospace !important;
   /* font-family: "Roboto Mono", monospace !important; */
   /* font-family: "Share Tech Mono", "Roboto Mono", monospace !important; */
 }
 x-row { /* The elements for each line; they directly contain the text */
+    border-bottom: 0.5px solid rgba(84,84,84,0.2);
     box-sizing: border-box;
     font-variant-ligatures: normal;
-    text-rendering: optimizeLegibility;
-    /* text-rendering: optimizeSpeed; */
-    /* border-bottom: 1px solid rgba(255,255,255,0.2); */
+    /* text-rendering: optimizeLegibility; */
+    text-rendering: optimizeSpeed;
 }
 body {
     letter-spacing: -0.5px;
     margin: 0px;
-    text-shadow: 0.5px 0.5px 0 rgba(84,84,84,0.2);
+    text-shadow: 0.25px 0.25px 0 rgba(84,84,84,0.2);
 }
