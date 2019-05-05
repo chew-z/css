@@ -1,18 +1,21 @@
+@import url('./fonts/fonts.css');
+
 html {
     display: flex;
+    font-family: 'Montserrat', sans-serif;
     align-items: center;
     justify-content: center;
     min-height: 100%;
 }
 
 body {
-    max-width: 40rem;
+    max-width: 60rem;
     padding: 2rem;
     margin: 1rem;
     /* margin: auto; */
     color: #24292e;
     line-height: 1.5;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 h1, h2 {
@@ -59,8 +62,7 @@ pre {
 }
 
 code {
-    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
-    font-size: 85%;
+    font-family: 'Roboto Mono', monospace;
     margin: 0;
     padding: 0.2em 0;
     border-radius: 3px;
